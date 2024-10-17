@@ -1,0 +1,51 @@
+header {
+  background-color: #dc3545;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f9fc;
+}
+
+#fetchNewsBtn {
+  font-size: 1.2rem;
+}
+
+#newsContainer {
+  margin-top: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+#pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#pagination button {
+  margin: 0 5px;
+}
+
+p {
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+#notificationSection {
+  margin-top: 30px;
+}
+
+#notificationList {
+  list-style-type: none;
+  padding: 0;
+}
+
+#notificationList li {
+  background-color: #e9f1fa;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-left: 5px solid #00ABE4;
+}
