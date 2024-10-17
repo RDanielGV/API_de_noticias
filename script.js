@@ -31,7 +31,7 @@ function fetchNews() {
   const searchQuery = document.getElementById('searchInput').value.trim();
   const category = document.getElementById('categorySelect').value;
   
-  let url = `https://cors-anywhere.herokuapp.com/https://newsapi.org/v2/top-headlines?apiKey=${apiKey}&country=us&page=${currentPage}&pageSize=${pageSize}`;
+  let url = `https://newsapi.org/v2/top-headlines?apiKey=${apiKey}&country=us&page=${currentPage}&pageSize=${pageSize}`;
   
   if (searchQuery) {
     url += `&q=${encodeURIComponent(searchQuery)}`;
